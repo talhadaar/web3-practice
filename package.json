@@ -1,0 +1,34 @@
+{
+  "name": "web3-practice",
+  "version": "1.0.0",
+  "description": "A repo for practicing with web3 client libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talhadaar/web3-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talhadaar/web3-practice/issues"
+  },
+  "homepage": "https://github.com/talhadaar/web3-practice#readme",
+  "dependencies": {
+    "gts": "^3.1.0"
+  },
+  "devDependencies": {
+    "gts": "^3.1.0",
+    "typescript": "^4.0.3",
+    "@types/node": "^14.11.2"
+  }
+}
